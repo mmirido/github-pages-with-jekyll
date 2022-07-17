@@ -1,0 +1,641 @@
+{
+  "version": "2.1",
+  "groups": [
+    {
+      "name": "Categories",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "18+",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "adult",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "boy.?love",
+          "inputType": "regexp",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "[dđ]am.?m[yỹ]",
+          "inputType": "regexp",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "ecchi",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "manhua",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "mature",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "shou(jo|nen).?ai",
+          "inputType": "regexp",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "smut",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "soft.?y(aoi|uri)",
+          "inputType": "regexp",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        },
+        {
+          "input": "trap",
+          "inputType": "text",
+          "output": "blocked-cat",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "Titles",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "12.?beast",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "6.?weapons",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "a.?world.?that.?i.?rule",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "alcafus",
+          "inputType": "text",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ano.?oni.?kyoshi.*?boku.*?ane.*?narundesuka",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "batsu.*?hare",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "b[aà].?c[oô].?[aÁ]c.?qu[yỷ].?[dĐ][oó].?l[aà].?ch[iị].?t[oô]i.?sao",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "b[aạ]n.?c[uủ]a.?b[aạ]n.?g[aá]i.?t[oô]i",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "b[aạ]n.?g[aá]i.?gacha",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "b[aạ]n.?g[aá]i.?t[oô]i.?b[iị].?senpai.?ntr.?n[eê]n.?t[oô]i.?ntr.?lu[oô]n.?b[aạ]n.?g[aá]i.?h[aắ]n",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "b[aạ]n.?trai.?xem.?m[aắ]t.?l[aà].?c[aả]nh.?s[aá]t.?d[eê].?x[oò]m",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ch[oó].?v[aà].?c[aặ]n.?b[aã]",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "could.?you.?turn.?three.?perverted.?sisters.?into.?fine.?brides",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "damena.?onee.*?sukida",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "destiny.?lovers?",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "destro.?(01|24)6",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "dokyuu.?hentai.?hxeros",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "d[uụ]c.?v[oọ]ng.?pandora",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "[dĐ][aả]o.?ch[eế]t.?ch[oó]c",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "freak.?island",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "hagure.?idol.?jigokuhen",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "hajirau.?kimi.*?mitainda",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "hirasaka.?hinako.*?kawaii.*?shitteiru",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "hitokui.?dungeon.*?youkoso",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "home.?room",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "huy[eế]t.?ma.?nh[aâ]n",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ichigo.?100%",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "if.?you.*?hold.*?100.?days.*?use.*?condom.?with.?me",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kanojo.*?okarishimasu",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kanojo.*?tomodachi",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kinou.?tasukete.?itadaita.?dragon.?desu",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kou.?2.*?time.?leaped.*?datta.?sensei.*?kokutta.?kekka",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kuroiwa.?medaka.*?watashi.*?kawaii.*?tsuujinai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "love.?kyo.*?kateikyoushi.*?sugite.?benkyou.?dokoro.*?nai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "maidens?.?in.?law",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "maou.?gakuen.*?hangyakusha",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "m[aặ]t.?tr[aá]i.?c[uủ]a.?ch[uú].?kamui",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "minamoto.*?monogatari",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "mone.*?majime.?sugiru.?tsukiaikata",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "monster.?girls?",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "mother.?hunting",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "my.?balls?",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "my.?wife.?is.?a.?man",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "mu[oố]n.?th[aấ]y.?em.?ng[uư][oợ]ng.?ng[uù]ng",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ng[oó]n.?tay.?anh.?[aẤ]y.?l[aà]m.?t[oô]i.?ph[aá]t.?[dĐ]i[eê]n",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "n[uụ].?h[oô]n.?ch[aá]y.?b[oỏ]ng",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "onee.?san.?ga.?shinryakuchuu",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "onee.?san.?is.?invading",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ore.?wa.?lolicon.?ja.?nai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "otoko.?no.?ko.?tsuma",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "oukoku.*?tsuzuku.?michi.?dorei.?kenshi.*?nariagari.?eiy[uū]tan",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "parallel.?paradise",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "sensei.*?kamawazu.*?kudasai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "s[eế]p.?th[uú].?t[ií]nh.?nh[aà].?b[eê]n",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "sex.?and.?dungeon",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "shokugeki.*?soma",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "siscon.*?brocon.?imouto.*?shoujiki.*?nattara",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "slow.?starter",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "teisou.?gyakuten.?sekai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "tenjou.?tenge",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "tensei.?pandemic",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "tr[aá]i.?c[aấ]m",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "madam",
+          "inputType": "text",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "uwa.?koi",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "v[oõ].?luy[eệ]n.?[dĐ][iỉ]nh.?phong",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "v[oợ].?t[oô]i.?l[aà].?con.?trai",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "youkai.?shoujo.*?monsuga",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "cross.*?and.*?crime",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "pansuto",
+          "inputType": "text",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "queen.?bee",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "rakujitsu.?no.?pathos",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ch[aă]m.?s[oó]c.?cho.?ch[iị].?d[aâ]u",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ani.?yome*?sewa.*?yaku",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "c[oô].?n[aà]ng.?bi[eế]n.?th[aá]i",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "t[oô]i.*?nguy[eệ]n.*?[dđ][uư][oợ]c.*?ch[eế]t.*?[dđ][eể].*?l[aấ]y.*?trinh.*?ti[eế]t.*?em",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kaifuku.*?jutsushi.*?yarinaoshi",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ng[uư][oờ]i.?tr[eê]n.?v[aạ]n.?ng[uư][oờ]i",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "healer.?b[aá]o.?th[uù]",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "tokyo.?revengers",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "log.?in.?to.?lust.*?land",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "kimi.?dake.*?hontou",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ore.*?maryoku.?spot.?datta.?ken.*?sundeiru.?dake.*?sekai.?saikyou",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "ie.*?moete.?jinsei.?dou.?demo.?yoku.?natta.?kara.*?nokotta.?nakenashi.*?dark.?elf.*?dorei.*?katta",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "chuy[eệ]n.?t[oô]i.?ch[aă]m.?s[oó]c.?c[oô].?g[aá]i.?kh[oô]ng.?th[aâ]n.?th[ií]ch",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "inu.*?nattara.?suki.*?hito.*?hirowareta",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "pervy.?healer",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "s[uự].?quy[eế]n.?r[uũ].?c[uủ]a.?2.5d",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "shuumatsu.*?valkyrie",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "v[uư][oơ]ng.?gi[aả].?thi[eê]n.?h[aạ]",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "a.?cute.?girl.?with.?nasty.?look",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "yume.?kara.?samete.*?soba.*?ite",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        },
+        {
+          "input": "g[aá]i.?ng[aà]nh",
+          "inputType": "regexp",
+          "output": "blocked-title",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true,
+      "mode": "auto&manual"
+    }
+  ]
+}
